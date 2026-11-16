@@ -1,1 +1,416 @@
- this is my first push request
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Divyasri Nagishetti - Senior Linux and Cloud Administrator with 5.5+ years of experience in Linux, AWS, Ansible and infrastructure management.">
+<meta name="author" content="Divyasri Nagishetti">
+<title>Divyasri Nagishetti | Linux & Cloud Administrator</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #0b1120;
+    color: #e2e8f0;
+    line-height: 1.7;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    background: #111827;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border-bottom: 1px solid #263449;
+}
+
+.logo {
+    color: #38bdf8;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+nav a {
+    color: #cbd5e1;
+    text-decoration: none;
+    margin-left: 22px;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #38bdf8;
+}
+
+section {
+    padding: 85px 10%;
+}
+
+.hero {
+    min-height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: radial-gradient(circle at top right, #17304e, #0b1120 60%);
+}
+
+.tag {
+    color: #38bdf8;
+    letter-spacing: 2px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: clamp(36px, 6vw, 58px);
+    margin: 18px 0;
+    color: #ffffff;
+    line-height: 1.2;
+}
+
+h1 span {
+    color: #38bdf8;
+}
+
+.hero p {
+    max-width: 720px;
+    color: #aab8ca;
+    font-size: 17px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 12px 24px;
+    background: #0284c7;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #0369a1;
+}
+
+.section-title {
+    font-size: 30px;
+    color: #ffffff;
+    margin-bottom: 25px;
+}
+
+.section-title span {
+    color: #38bdf8;
+}
+
+.about p {
+    max-width: 900px;
+    color: #aab8ca;
+    font-size: 16px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: #111c2e;
+    padding: 25px;
+    border: 1px solid #263449;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    border-color: #38bdf8;
+}
+
+.card h3 {
+    color: #38bdf8;
+    margin-bottom: 12px;
+    font-size: 18px;
+}
+
+.card p {
+    color: #aab8ca;
+    font-size: 14px;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.skills span {
+    background: #14243a;
+    border: 1px solid #28445e;
+    color: #7dd3fc;
+    padding: 9px 16px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.timeline {
+    border-left: 2px solid #0284c7;
+    padding-left: 25px;
+}
+
+.timeline-item {
+    margin-bottom: 28px;
+}
+
+.timeline-item h3 {
+    color: #38bdf8;
+}
+
+.timeline-item p {
+    color: #aab8ca;
+}
+
+.contact {
+    text-align: center;
+    background: #111827;
+}
+
+.contact p {
+    color: #aab8ca;
+    margin: 8px 0;
+}
+
+.contact a {
+    color: #38bdf8;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding: 22px;
+    color: #8492a6;
+    background: #080d18;
+    font-size: 13px;
+}
+
+@media(max-width: 700px) {
+    nav {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    nav a {
+        margin: 5px;
+    }
+
+    section {
+        padding: 65px 7%;
+    }
+
+    .hero {
+        min-height: 480px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+    <div class="logo">DN.</div>
+    <div>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>
+
+<section class="hero" id="home">
+    <div class="tag">LINUX • CLOUD • INFRASTRUCTURE</div>
+
+    <h1>Hi, I'm <span>Divyasri Nagishetti</span></h1>
+
+    <h2>Senior Linux & Cloud Administrator</h2>
+
+    <p>
+        Experienced IT Infrastructure Professional with 5.5+ years
+        of experience in Linux system administration, AWS cloud
+        infrastructure, automation, server management and
+        vulnerability remediation.
+    </p>
+
+    <div>
+        <a class="btn" href="#contact">Get In Touch</a>
+        <a class="btn" href="#skills">Explore My Skills</a>
+    </div>
+</section>
+
+<section class="about" id="about">
+    <h2 class="section-title">About <span>Me</span></h2>
+
+    <p>
+        I am a Senior Linux Administrator with 5.5+ years of experience
+        managing enterprise Linux environments and cloud infrastructure.
+        My experience includes RHEL, CentOS, Ubuntu and SUSE Linux
+        administration, AWS services, Ansible automation, performance
+        monitoring, patch management and security remediation.
+
+        I have supported production environments, handled critical
+        incidents, performed root cause analysis and maintained
+        infrastructure availability through proactive monitoring
+        and troubleshooting.
+
+        I continuously focus on improving infrastructure reliability,
+        security and operational efficiency.
+    </p>
+</section>
+
+<section id="skills">
+    <h2 class="section-title">Technical <span>Skills</span></h2>
+
+    <div class="skills">
+        <span>RHEL 6/7/8/9</span>
+        <span>CentOS</span>
+        <span>Ubuntu</span>
+        <span>SUSE Linux</span>
+        <span>AWS EC2</span>
+        <span>AWS VPC</span>
+        <span>AWS S3</span>
+        <span>AWS IAM</span>
+        <span>AWS EBS</span>
+        <span>AWS EFS</span>
+        <span>CloudWatch</span>
+        <span>CloudTrail</span>
+        <span>Ansible</span>
+        <span>Terraform</span>
+        <span>Shell Scripting</span>
+        <span>Git & GitHub</span>
+        <span>Splunk</span>
+        <span>Nagios</span>
+        <span>Dynatrace</span>
+        <span>VMware</span>
+        <span>LVM</span>
+        <span>NFS</span>
+        <span>SELinux</span>
+        <span>Firewalld</span>
+        <span>Patch Management</span>
+        <span>Vulnerability Remediation</span>
+        <span>ServiceNow</span>
+    </div>
+</section>
+
+<section id="expertise">
+    <h2 class="section-title">Areas of <span>Expertise</span></h2>
+
+    <div class="grid">
+        <div class="card">
+            <h3>Linux Administration</h3>
+            <p>
+                Server provisioning, OS installation, patching,
+                troubleshooting, user management, LVM, filesystem
+                administration and performance tuning.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>AWS Cloud</h3>
+            <p>
+                EC2, VPC, S3, IAM, EBS, EFS, RDS, Load Balancing,
+                Auto Scaling, CloudWatch and cloud infrastructure.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Automation</h3>
+            <p>
+                Ansible playbooks, Shell scripting, repetitive
+                task automation and infrastructure configuration.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Security & Monitoring</h3>
+            <p>
+                Vulnerability remediation, security hardening,
+                Splunk log monitoring, Nagios, Dynatrace and RCA.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section id="experience">
+    <h2 class="section-title">Professional <span>Experience</span></h2>
+
+    <div class="timeline">
+        <div class="timeline-item">
+            <h3>Senior Linux Administrator</h3>
+            <p>Enterprise Infrastructure Operations</p>
+            <p>
+                Linux server administration, AWS infrastructure
+                support, patch management, vulnerability remediation,
+                monitoring and production incident management.
+            </p>
+        </div>
+
+        <div class="timeline-item">
+            <h3>Linux Administrator</h3>
+            <p>Enterprise IT Infrastructure</p>
+            <p>
+                RHEL and SUSE administration, VMware support,
+                server troubleshooting, package management,
+                automation and infrastructure maintenance.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <h2 class="section-title">Let's <span>Connect</span></h2>
+
+    <p>Interested in Linux Administration and Cloud Infrastructure opportunities.</p>
+
+    <p>Email:
+        <a href="mailto:divyalinux156@gmail.com">
+            divyalinux156@gmail.com
+        </a>
+    </p>
+
+    <p>LinkedIn:
+        <a href="https://linkedin.com/in/divyasri-nagishetti"
+           target="_blank">
+            View LinkedIn Profile
+        </a>
+    </p>
+
+    <p>GitHub:
+        <a href="https://github.com/divyasri1526"
+           target="_blank">
+            View GitHub Profile
+        </a>
+    </p>
+
+    <a class="btn" href="mailto:divyalinux156@gmail.com">
+        Contact Me
+    </a>
+</section>
+
+<footer>
+    © 2026 Divyasri Nagishetti | Linux & Cloud Administrator
+</footer>
+
+</body>
+</html>
+
